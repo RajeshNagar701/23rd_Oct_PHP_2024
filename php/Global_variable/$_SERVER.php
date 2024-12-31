@@ -3,8 +3,7 @@
 //$_SERVER is a PHP super global variable which holds information 
 
 /*
-headers,server,hostname,, 
-paths, 
+headers,server,hostname,paths, 
 Script/Page name,locations,url.
 */
 
@@ -22,6 +21,14 @@ echo $_SERVER['SCRIPT_NAME'];
 echo "<br>";
 echo $_SERVER['HTTP_REFERER']."<br>";
 
+
+
+
+session_start();
+
+echo $_SESSION['user'] . "<br>";
+
+echo $_COOKIE['user'];
 
 
 ?>
