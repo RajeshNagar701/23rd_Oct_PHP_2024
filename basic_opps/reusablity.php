@@ -7,12 +7,16 @@ Inheritance / Reusability
 It is a concept of accessing the features of one class from another class.
 types
 
-Single-level inheritance.
-Multi-level inheritance.
+1)Single-level inheritance.
+2)Multi-level inheritance.
 
-Multiple inheritance.
-Hierarchical Inheritance.
-Hybrid Inheritance.
+3)Multiple inheritance.   not work in PHP
+
+4)Hierarchical Inheritance.
+
+5)Hybrid Inheritance.
+
+
 
 */
 // single level inheritance
