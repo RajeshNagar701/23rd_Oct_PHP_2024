@@ -1,7 +1,14 @@
 <?php
 /*
 
-const my_const="const_value";
+public var $a="10"  normal var diclare
+$this->a     normal var call
+
+
+
+
+const my_const="const_value";   diclare by const keyword & withaout $ sign
+class_name::my_const;   const var call by ::
 
 
 const keyword
@@ -9,8 +16,6 @@ unchangeble
 public visiblity
 call by ::
 call withaout object
-
-
 
 
 Constants are one type of variable which 
@@ -42,6 +47,8 @@ class xyz extends abc
 		echo abc::my_const;
 	}
 }
+
+
  echo abc::my_const;  // we can call without object
  
 

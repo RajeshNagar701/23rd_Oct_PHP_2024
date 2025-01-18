@@ -8,7 +8,7 @@ being defined final then it cannot be extended.
 
 
 */
-
+// provide securities to class
 final class a
 {
 	 function test()

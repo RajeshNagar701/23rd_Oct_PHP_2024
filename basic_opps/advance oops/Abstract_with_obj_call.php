@@ -19,7 +19,7 @@ method must be defined as either protected or public, but not private.
 
 abstract class A  // define abstract before class declare in main class
 {
-	abstract function foo();    // alwayas use abstract method and also use simple method // if it interfave method than foo(); (;) must othrwise not
+   // alwayas use abstract method and also use simple method // if it interfave method than foo(); (;) must othrwise not
 	  
 	function simple()           // also use simple method
 	{

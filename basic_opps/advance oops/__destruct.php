@@ -13,16 +13,16 @@ neither does it return any data type
 class a
 {
     
-    public function __construct()
+    function __construct()
     {
         echo "I'm alive! <br>";    
 	}
    
-    public function __destruct()// object() destroy & call in last
+    function __destruct()// object() destroy & call in last
     {
         echo "I'm dead now <br>";
     }
-	public function display()  
+	function display()  
     {
         echo "I'm display now <br>";
     }

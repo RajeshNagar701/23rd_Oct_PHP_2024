@@ -10,7 +10,7 @@ us to assign more than one property.
 
 */
 
-//=> Overloading Same method name with different parameter, 
+//=>1) Overloading : Same method name with different parameter, 
 //since PHP doesn't support method overloading concept 
 
 /*
@@ -34,7 +34,6 @@ $obj->sum(5,10,5);
 
 Note : overloading not posible in PHP 
 */
-
 
 //=> Overriding When same methods defined in parents and child class 
 //with same signature

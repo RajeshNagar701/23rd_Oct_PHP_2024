@@ -26,7 +26,7 @@ __clone(), and __debugInfo().
 
 
 =================================================================
-__construct(),   call aauto & first call
+__construct(),   call aauto & first call & also use by :: scope resolution
 
 A constructor allows you to initialize an object's properties 
 upon creation of the object. Also called magic function 
@@ -54,18 +54,15 @@ class abc
 	{
 		echo "Simple Function <br>";
 	}
-	
 	function __construct()
 	{
 		echo "Magic function run auto matecaly<br>";
 	}
-	
 	function autocall(){
 		
 		$this->simple();  // normal function call in function with this keywords
 		abc::__construct(); // call by ::(scope resolution)
 	}
-	
 }
 
 $obj=new abc;
