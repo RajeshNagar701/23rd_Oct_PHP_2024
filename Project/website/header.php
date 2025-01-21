@@ -35,26 +35,26 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
-                              <li class="nav-item <?php echo nav('index.php')?>">
-                                 <a class="nav-link" href="index.php">Home</a>
+                              <li class="nav-item <?php echo nav('/')?>">
+                                 <a class="nav-link" href="/">Home</a>
                               </li>
-                              <li class="nav-item <?php echo nav('about.php')?>">
-                                 <a class="nav-link" href="about.php">About</a>
+                              <li class="nav-item <?php echo nav('about')?>">
+                                 <a class="nav-link" href="about">About</a>
                               </li>
-                              <li class="nav-item <?php echo nav('glasses.php')?>">
-                                 <a class="nav-link" href="glasses.php">Our Glasses</a>
+                              <li class="nav-item <?php echo nav('glasses')?>">
+                                 <a class="nav-link" href="glasses">Our Glasses</a>
                               </li>
-                              <li class="nav-item <?php echo nav('shop.php')?>">
-                                 <a class="nav-link" href="shop.php">Shop</a>
+                              <li class="nav-item <?php echo nav('shop')?>">
+                                 <a class="nav-link" href="shop">Shop</a>
                               </li>
-                              <li class="nav-item <?php echo nav('contact.php')?>">
-                                 <a class="nav-link" href="contact.php">Contact Us</a>
+                              <li class="nav-item <?php echo nav('contact')?>">
+                                 <a class="nav-link" href="contact">Contact Us</a>
                               </li>
                               <li class="nav-item d_none login_btn">
-                                 <a class="nav-link" href="login.php">Login</a>
+                                 <a class="nav-link" href="login">Login</a>
                               </li>
                               <li class="nav-item d_none">
-                                 <a class="nav-link" href="signup.php">Register</a>
+                                 <a class="nav-link" href="signup">Register</a>
                               </li>
                               <li class="nav-item d_none sea_icon">
                                  <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
