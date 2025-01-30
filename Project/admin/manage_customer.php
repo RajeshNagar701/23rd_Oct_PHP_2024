@@ -23,24 +23,39 @@ include_once('header.php');
                                 <table class="table table-striped table-bordered table-hover">
                                     <thead>
                                         <tr>
-                                            <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Username</th>
+                                            <th>ID#</th>
+                                            <th>Name</th>
+                                            <th>Email</th>
+                                            <th>Password</th>
+											<th>Gender</th>
+											<th>Launguages</th>
+											<th>Image</th>
 											<th>Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-											<td>
-												<a class="btn btn-danger" href="">Delete</a>
-												<a class="btn btn-primary" href="">Edit</a>
-											</td>
-                                        </tr>
+                                       <?php
+									
+										foreach($customers_arr as $data)
+										{
+										?>
+											<tr>
+												<td><?php echo $data->id;?></td>
+												<td><?php echo $data->name;?></td>
+												<td><?php echo $data->email;?></td>
+												<td><?php echo $data->password;?></td>
+												<td><?php echo $data->gender;?></td>
+												<td><?php echo $data->launguages;?></td>
+												<td><?php echo $data->image;?></td>
+												<td>
+													<a class="btn btn-danger" href="">Delete</a>
+													<a class="btn btn-primary" href="">Edit</a>
+													<a class="btn btn-primary" href=""><?php echo $data->status;?></a>
+												</td>
+											</tr>
+										<?php
+										}
+										?>    
                                         
                                     </tbody>
                                 </table>

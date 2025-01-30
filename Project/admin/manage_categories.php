@@ -30,15 +30,24 @@ include_once('header.php');
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Sports</td>
-                                            <td></td>
-											<td>
-												<a class="btn btn-danger" href="">Delete</a>
-												<a class="btn btn-primary" href="">Edit</a>
-											</td>
-                                        </tr>
+									
+                                        <?php
+									
+										foreach($categories_arr as $data)
+										{
+										?>
+											<tr>
+												<td><?php echo $data->id;?></td>
+												<td><?php echo $data->cate_name;?></td>
+												<td><?php echo $data->image;?></td>
+												<td>
+													<a class="btn btn-danger" href="">Delete</a>
+													<a class="btn btn-primary" href="">Edit</a>
+												</td>
+											</tr>
+										<?php
+										}
+										?>    
                                         
                                     </tbody>
                                 </table>

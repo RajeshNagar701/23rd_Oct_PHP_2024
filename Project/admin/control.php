@@ -30,22 +30,27 @@ class control extends model{
 			break;
 			
 			case '/manage_categories':
+			$categories_arr=$this->select('categories');
 			include_once('manage_categories.php');
 			break;
 			
 			case '/add_product':
+			
 			include_once('add_product.php');
 			break;
 			
 			case '/manage_product':
+			$products_arr=$this->select('products');
 			include_once('manage_product.php');
 			break;
 			
 			case '/manage_contact':
+			$contact_arr=$this->select('contacts');
 			include_once('manage_contact.php');
 			break;
 			
 			case '/manage_customer':
+			$customers_arr=$this->select('customers');
 			include_once('manage_customer.php');
 			break;
 			

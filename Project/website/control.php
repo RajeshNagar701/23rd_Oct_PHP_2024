@@ -26,6 +26,7 @@ class control extends model{
 			break;
 			
 			case '/glasses':
+			$categories_arr=$this->select('categories');
 			include_once('glasses.php');
 			break;
 			
