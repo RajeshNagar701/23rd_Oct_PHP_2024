@@ -4,14 +4,14 @@
 // MVC        m(logic) ===> C(fist page run) <==== V(design pages) 
 
 
-include_once('../website/model.php');
+include_once('../website/model.php'); // step 1 model load in control for call function
 
 
-class control extends model{
+class control extends model{  // step 2 control class extends model class for access function
 	
 	function __construct(){
 		
-		model::__construct();  // call model __construct for db connection
+		model::__construct();  // stepm 3  call model __construct for db connection
 		
 		$path=$_SERVER['PATH_INFO']; // GET PATH OF OWN PAGE
 		
@@ -35,7 +35,6 @@ class control extends model{
 			break;
 			
 			case '/add_product':
-			
 			include_once('add_product.php');
 			break;
 			
